@@ -1,0 +1,39 @@
+Python 3.5.0 (v3.5.0:374f501f4567, Sep 13 2015, 02:27:37) [MSC v.1900 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+============= RESTART: C:\Users\KTJP\Desktop\mydev\code\train.py =============
+
+Warning (from warnings module):
+  File "C:\Program Files\Python 3.5\lib\site-packages\tensorflow\python\framework\dtypes.py", line 493
+    _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+
+Warning (from warnings module):
+  File "C:\Program Files\Python 3.5\lib\site-packages\tensorflow\python\framework\dtypes.py", line 494
+    _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+
+Warning (from warnings module):
+  File "C:\Program Files\Python 3.5\lib\site-packages\tensorflow\python\framework\dtypes.py", line 495
+    _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+
+Warning (from warnings module):
+  File "C:\Program Files\Python 3.5\lib\site-packages\tensorflow\python\framework\dtypes.py", line 496
+    _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+
+Warning (from warnings module):
+  File "C:\Program Files\Python 3.5\lib\site-packages\tensorflow\python\framework\dtypes.py", line 497
+    _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+
+Warning (from warnings module):
+  File "C:\Program Files\Python 3.5\lib\site-packages\tensorflow\python\framework\dtypes.py", line 502
+    np_resource = np.dtype([("resource", np.ubyte, 1)])
+FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+Traceback (most recent call last):
+  File "C:\Users\KTJP\Desktop\mydev\code\train.py", line 9, in <module>
+    import keras as ks
+ImportError: No module named 'keras'
+>>> 
